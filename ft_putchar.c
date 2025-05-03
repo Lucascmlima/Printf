@@ -6,14 +6,17 @@
 /*   By: lcarvalh <lcarvalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 13:58:47 by lcarvalh          #+#    #+#             */
-/*   Updated: 2025/04/27 14:12:57 by lcarvalh         ###   ########.fr       */
+/*   Updated: 2025/05/03 17:10:12 by lcarvalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putchar(char c)
+int ft_putchar(int c)
 {
-	write(1, &c, 1);
+	unsigned char	a;
+
+	a = (unsigned char)c;
+	write(1, &a, 1);
 	return (1);
 }
