@@ -72,8 +72,11 @@ int main(void)
 ## 👤 Autor
 
 **Lucas C. M. Lima**
+
 42 Lisboa - Estudante de Full Stack Development
+
 Email: [lucascml.dev@outlook.com](mailto:lucascml.dev@outlook.com)
+
 GitHub: [lucascml](https://github.com/lucascml)
 
 ---
