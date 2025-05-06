@@ -5,6 +5,8 @@
 # include <unistd.h>
 # include <stddef.h>
 # include <stdint.h>
+# include <stdlib.h>
+# include <string.h>
 
 int		ft_putnbr_hex(unsigned int n, int uppercase);
 int		ft_print_type(va_list args, char type);
