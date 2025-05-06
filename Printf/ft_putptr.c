@@ -6,7 +6,7 @@
 /*   By: lcarvalh <lcarvalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 17:17:51 by lcarvalh          #+#    #+#             */
-/*   Updated: 2025/05/03 17:30:47 by lcarvalh         ###   ########.fr       */
+/*   Updated: 2025/05/06 20:57:00 by lcarvalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,3 @@ int	ft_putptr(void *ptr)
 	count += ft_putnbr_ptr(n);
 	return (count);
 }
-
-
-

@@ -6,7 +6,7 @@
 /*   By: lcarvalh <lcarvalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 16:30:21 by lcarvalh          #+#    #+#             */
-/*   Updated: 2025/04/27 16:31:15 by lcarvalh         ###   ########.fr       */
+/*   Updated: 2025/05/06 20:57:10 by lcarvalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int	ft_putstr(char *str)
 		str = "(null)";
 	while (str[count])
 	{
-		ft_putchar(str[count]);  
+		ft_putchar(str[count]);
 		count++;
 	}
-	return (count); 
+	return (count);
 }

@@ -6,7 +6,7 @@
 /*   By: lcarvalh <lcarvalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 16:40:24 by lcarvalh          #+#    #+#             */
-/*   Updated: 2025/05/03 17:14:08 by lcarvalh         ###   ########.fr       */
+/*   Updated: 2025/05/06 20:55:39 by lcarvalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,3 @@ int	ft_print_type(va_list args, char type)
 		count += ft_putchar(type);
 	return (count);
 }
-
-

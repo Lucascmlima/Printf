@@ -6,13 +6,13 @@
 /*   By: lcarvalh <lcarvalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 13:58:47 by lcarvalh          #+#    #+#             */
-/*   Updated: 2025/05/03 17:10:12 by lcarvalh         ###   ########.fr       */
+/*   Updated: 2025/05/06 20:55:48 by lcarvalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_putchar(int c)
+int	ft_putchar(int c)
 {
 	unsigned char	a;
 
